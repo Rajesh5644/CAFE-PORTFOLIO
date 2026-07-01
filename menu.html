@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu — Hyderabadi Amruttulya</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">☕</div>
+      <div>Hyderabadi<span> Amruttulya</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact</a></li>
+    </ul>
+    <div class="nav-toggle"><span></span><span></span><span></span></div>
+  </nav>
+
+  <div class="page-banner">
+    <div class="page-banner-bg"></div>
+    <div class="page-banner-content">
+      <div class="page-banner-label">Hand-crafted drinks & bites</div>
+      <h1 class="page-banner-title">Our <em>Menu</em></h1>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-cats">
+      <button class="menu-cat active" data-cat="all">All</button>
+      <button class="menu-cat" data-cat="tea">Tea</button>
+      <button class="menu-cat" data-cat="coffee">Coffee</button>
+      <button class="menu-cat" data-cat="shake">Thick Shakes</button>
+      <button class="menu-cat" data-cat="snack">Snacks</button>
+    </div>
+
+    <div class="menu-grid">
+      <!-- TEA -->
+      <div class="menu-card" data-cat="tea">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=200&q=80"
+          alt="Jaggery Tea">
+        <div class="menu-card-body">
+          <div class="menu-card-name">Jaggery Tea</div>
+          <div class="menu-card-desc">Traditional bellam chai brewed fresh with natural jaggery</div>
+        </div>
+        <div class="menu-card-price">₹20</div>
+      </div>
+      <div class="menu-card" data-cat="tea">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=200&q=80"
+          alt="Kulhad Tea">
+        <div class="menu-card-body">
+          <div class="menu-card-name">Kulhad Tea</div>
+          <div class="menu-card-desc">Served in a traditional clay kulhad for earthy depth</div>
+        </div>
+        <div class="menu-card-price">₹20</div>
+      </div>
+      <div class="menu-card" data-cat="tea">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1646294567230-b56cb0cd1f5b?w=200&q=80"
+          alt="Masala Chai">
+        <div class="menu-card-body">
+          <div class="menu-card-name">Masala Chai</div>
+          <div class="menu-card-desc">Hand-ground spice blend with ginger, cardamom & clove</div>
+        </div>
+        <div class="menu-card-price">₹20</div>
+      </div>
+      <div class="menu-card" data-cat="tea">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1682530203694-0cfcd23a7bbc?w=200&q=80"
+          alt="Ginger Tea">
+        <div class="menu-card-body">
+          <div class="menu-card-name">Ginger Tea</div>
+          <div class="menu-card-desc">Boldly brewed with fresh raw ginger root</div>
+        </div>
+        <div class="menu-card-price">₹20</div>
+      </div>
+      <div class="menu-card" data-cat="tea">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?w=200&q=80"
+          alt="Green Tea">
+        <div class="menu-card-body">
+          <div class="menu-card-name">Green Tea</div>
+          <div class="menu-card-desc">Light and clean with natural antioxidants</div>
+        </div>
+        <div class="menu-card-price">₹20</div>
+      </div>
+
+      <!-- COFFEE -->
+      <div class="menu-card" data-cat="coffee">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=200&q=80"
+          alt="Filter Coffee">
+        <div class="menu-card-body">
+          <div class="menu-card-name">Filter Coffee</div>
+          <div class="menu-card-desc">South Indian decoction with rich frothy milk</div>
+        </div>
+        <div class="menu-card-price">₹25</div>
+      </div>
+      <div class="menu-card" data-cat="coffee">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=200&q=80"
+          alt="Caramel Coffee">
+        <div class="menu-card-body">
+          <div class="menu-card-name">Caramel Coffee</div>
+          <div class="menu-card-desc">Smooth espresso layered with house caramel</div>
+        </div>
+        <div class="menu-card-price">₹50</div>
+      </div>
+
+      <!-- SHAKES -->
+      <div class="menu-card" data-cat="shake">
+        <img class="menu-card-img"
+          src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3JlbyUyMHNoYWtlfGVufDB8fDB8fHww"
+          alt="Oreo Shake">
+        <div class="menu-card-body">
+          <div class="menu-card-name">Oreo Thick Shake</div>
+          <div class="menu-card-desc">Dense chocolate shake with crushed Oreo crumble</div>
+        </div>
+        <div class="menu-card-price">₹99</div>
+      </div>
+      <div class="menu-card" data-cat="shake">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1589733955941-5eeaf752f6dd?w=200&q=80"
+          alt="Strawberry Shake">
+        <div class="menu-card-body">
+          <div class="menu-card-name">Strawberry Shake</div>
+          <div class="menu-card-desc">Real strawberry blended to a thick, fruity pour</div>
+        </div>
+        <div class="menu-card-price">₹79</div>
+      </div>
+
+      <!-- SNACKS -->
+      <div class="menu-card" data-cat="snack">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=200&q=80"
+          alt="Samosa">
+        <div class="menu-card-body">
+          <div class="menu-card-name">Crispy Samosa</div>
+          <div class="menu-card-desc">Golden-fried with spiced potato & peas filling</div>
+        </div>
+        <div class="menu-card-price">₹20</div>
+      </div>
+      <div class="menu-card" data-cat="snack">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=200&q=80"
+          alt="French Fries">
+        <div class="menu-card-body">
+          <div class="menu-card-name">French Fries</div>
+          <div class="menu-card-desc">Seasoned crispy fries with house dip</div>
+        </div>
+        <div class="menu-card-price">₹59</div>
+      </div>
+      <div class="menu-card" data-cat="snack">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1583743089695-4b816a340f82?w=200&q=80"
+          alt="Biscuit">
+        <div class="menu-card-body">
+          <div class="menu-card-name">Biscuit</div>
+          <div class="menu-card-desc">Perfect chai companion, served warm</div>
+        </div>
+        <div class="menu-card-price">₹15</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Hyderabadi Amruttulya</div>
+        <p class="footer-desc">Authentic jaggery tea and handcrafted drinks, brewed with tradition since 2020.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Navigate</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Hours</div>
+        <ul class="footer-links">
+          <li><a href="#">Mon – Sun</a></li>
+          <li><a href="#">6:00 AM – 11:00 PM</a></li>
+          <li><a href="#">Open Holidays</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <ul class="footer-links">
+          <li><a href="tel:+919100578475">+91 91005 78475</a></li>
+          <li><a href="#">Mallapur, Secunderabad</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 Hyderabadi Amruttulya</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
