@@ -6,9 +6,7 @@ A modern, responsive website for **Hyderabadi Amrutulya**, designed to showcase 
 
 ## 🌐 Live Demo
 
-🔗 https://hyderabadiamrutulya.netlify.app/
-
-*(Replace with your actual deployed URL if different.)*
+🔗 https:https://hyderabadiamrutullya.netlify.app/
 
 ---
 
